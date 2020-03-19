@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+body {
+  color : #727272;
+  background-color : white;
+  font-family: 'Play', sans-serif;
+  font-size : 1.5vh;
+  text-decoration: none;
+}
+
+section {
+  padding : 11vw;
+  position : relative;
+
+}
+
+.flex-item {
+  display: inline-flex;
+  justify-content : space-around;
+
+}
+
+.bg-image-positionable {
+  position : relative;
+}
+
+.image-non-aligned {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding : 4vw;
+}
+
+.image-bottom {
+    max-width: 100%;
+    height: auto;
+    margin: auto 0;
+    position : relative;
+    padding-bottom : 0;
+}
+
+.section1 {
+  background-image : url("images/header-photo.jpg");
+  background-size: 100%;
+  padding:  11vw 20vw;
+}
+
+.section1 h1 {
+  font-weight : 100;
+  font-size : 5vw;
+}
+
+.section1 form {
+  display : block;
+}
+
+.pink-text-button {
+  font-family: 'Play', sans-serif;
+  background-color : #FF6D6D;
+  color : white;font-weight : 100;
+  font-size : 1.75vw;
+  border : none;
+  width : 16vw;
+  height: 4vw;
+  bottom : 0px;
+  padding : 0.75vw 1vw;
+  margin-left :auto;
+  margin-right : auto;
+  margin-top : 2vw;
+}
+
+.goArrow {
+  display : block;
+  width : 10%;
+  margin-left :auto;
+  margin-right : auto;
+  margin-bottom : 2vw;
+}
+/*
+.section2-dummy-class {
+} */
+
+.section3 {
+  background-image : url("images/section3-photoBackground.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-color : #F6F5F3;
+}
+
+.section4 {
+  padding-left : 0;
+}
+
+.section5 {
+  background-image : url("images/section5-background.jpg");
+  background-size: 100%;
+}
+
+.logo {
+  color: #A6A6A9;
+}
+
+.section6 {
+  background-color : #F6F5F3;
+  color: #A6A6A9;
+  padding-bottom : 0;
+}
+
+/* .section7-dummy-class {
+} */
+
+/* .section8-dummy-class {
+} */
+
+address {
+  font-style: normal;
+}
+
+.nav-sibling-title {
+  font-size : 1.8vh;
+  font-weight : 600;
+  text-align : left;
+  color : #616161;
+  padding-top : 1vh;
+  padding-bottom : 1vh;
+  margin : 0;
+}

@@ -1,0 +1,26 @@
+.box-and-button-form {
+  display : inline-block;
+  width: 100%;
+}
+
+.round-border {
+  border-radius : 2px;
+}
+
+.text-input-narrow {
+  height: 4vw;
+  width: 16vw;
+  bottom : 0px;
+  border: 1px solid #EAEAEB;;
+  background-color: #F6F6F6;
+}
+
+.submit-image-paper-plane {
+  background-image: "../images/section6-browser.png";
+  background-color: #FF6D6D;
+  height: 4vw;
+  bottom : 0px;
+  padding : 0.75vw 1vw;
+  box-sizing :  border-box;
+  box-shadow: 0 4px #EAEAEB;
+}
